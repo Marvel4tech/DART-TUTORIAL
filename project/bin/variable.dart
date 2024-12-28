@@ -1,7 +1,6 @@
 void main() {
-  
   // var
-  var name  = "Godswill";
+  var name = "Godswill";
   print(name);
 
   // dynamic
@@ -26,11 +25,4 @@ void main() {
   // final
   final state = "Lagos";
   print(state);
-
-  String firstName = "Mravel";
-  String lasttName = "Ayomike";
-  print(lasttName);
-  print(firstName);
-
-
 }
