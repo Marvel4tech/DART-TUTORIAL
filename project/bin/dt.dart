@@ -71,6 +71,8 @@ void main() {
  stateNames.update("Edo", (value) => "London"); //Method 2
   print("Map: $stateNames");
 
+  
+
   /*stateNames.update("Edo", "Ikoyi"); //update a value by key
   print("Map: $stateNames");
 
