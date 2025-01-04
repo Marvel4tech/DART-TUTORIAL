@@ -24,4 +24,18 @@ void main() {
   } else {
     print("No gas at all");
   }
+
+  
+  var schoolGrade = 40;
+  if (schoolGrade >= 90) {
+    print("You have an A+");
+  } else if (schoolGrade >= 80) {
+    print("You have a B");
+  } else if (schoolGrade >= 70) {
+    print("You have a C");
+  } else if (schoolGrade >= 60) {
+    print("You ahve a D");
+  } else {
+    print("You dont attend classes");
+  }
 }
