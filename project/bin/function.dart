@@ -31,4 +31,31 @@ void main() {
 
   var name = myApp3("Ighosotu", "Maii HD");
   print(name);
+
+    // 5
+  count(int num1) {
+    return num1 / 5;
+  }
+
+  var result = count(10);
+  print(result);
+
+
+
+
+
+
+
+
+
+  googleSoftware() {
+    String name3 = "John";
+    if (name3 == "Will") {
+      return "You are not the one";
+    } else {
+      return "You are the one"; // Add a return statement for the else case
+    }
+  }
+
+  googleSoftware();
 }
