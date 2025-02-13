@@ -23,8 +23,6 @@ void main() {
 
   print("$d + $e = $f");
 
-  
-
   // INTEGAR TO STRING
 
   // #4
@@ -34,4 +32,18 @@ void main() {
   i = g.toString() + h;
 
   print(i);
+
+  //Rough Example
+  dynamic ana = "12";
+  int bab = 3;
+  dynamic z = bab + int.parse(ana);
+  print(z);
+
+  //#2
+  dynamic m, n, o, postcode;
+  m = "SE";
+  n = 13;
+  o = "5HN";
+  postcode = m + n.toString() + o;
+  print("$m + $n + $o = $postcode");
 }
